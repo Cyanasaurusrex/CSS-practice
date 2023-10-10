@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wheel {
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(
+        from 0deg,
+        red,
+        yellow,
+        green,
+        blue,
+        purple,
+        red
+    );
+    border-radius: 50%;
+    animation: spin 4s linear infinite;
+    transform-origin: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
